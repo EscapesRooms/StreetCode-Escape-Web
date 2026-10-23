@@ -373,3 +373,155 @@ h1, h2, h3 { text-wrap: balance; }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   [data-reveal] { opacity: 1; transform: none; }
 }
+
+.art-harry {
+  background: radial-gradient(ellipse at 52% 49%, rgba(188, 156, 255, .18), transparent 34%), linear-gradient(140deg, #201c2e, #17161e 58%, #292118);
+}
+.harry-orbit {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 124px;
+  height: 124px;
+  border: 1px solid rgba(210, 187, 255, .72);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 30px rgba(188, 156, 255, .16), inset 0 0 25px rgba(188, 156, 255, .1);
+}
+.harry-orbit::after {
+  position: absolute;
+  inset: 19px;
+  border: 1px dashed rgba(236, 195, 117, .64);
+  border-radius: 50%;
+  content: "";
+}
+.harry-spark {
+  position: absolute;
+  top: 35%;
+  left: 48%;
+  color: #ecc278;
+  font-size: 26px;
+}
+.art-stranger {
+  background: radial-gradient(ellipse at 50% 55%, rgba(220, 35, 71, .19), transparent 35%), linear-gradient(160deg, #1b1119, #100f17 62%, #1a1014);
+}
+.signal-horizon {
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  left: 15%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(246, 86, 105, .8), transparent);
+  box-shadow: 0 0 22px rgba(246, 56, 89, .72);
+}
+.signal-pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 92px;
+  height: 92px;
+  border: 1px solid rgba(246, 86, 105, .52);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 18px rgba(246, 86, 105, .055), 0 0 0 37px rgba(246, 86, 105, .035);
+}
+.art-ultima-pieza {
+  background:
+    linear-gradient(rgba(145, 213, 196, .045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(145, 213, 196, .045) 1px, transparent 1px),
+    radial-gradient(ellipse at 52% 50%, rgba(232, 149, 74, .17), transparent 38%),
+    linear-gradient(145deg, #131c1c, #101515 62%, #1b1713);
+  background-size: 24px 24px, 24px 24px, auto, auto;
+}
+.ultima-pieza-frame {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(232, 149, 74, .74);
+  transform: translate(-50%, -50%) rotate(45deg);
+  box-shadow: 0 0 30px rgba(232, 149, 74, .13), inset 0 0 24px rgba(145, 213, 196, .07);
+}
+.ultima-pieza-signal {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  color: #e9e3d5;
+  font-family: var(--mono);
+  font-size: 23px;
+  letter-spacing: .08em;
+  transform: translate(-50%, -50%);
+}
+.catalog-visual-harry {
+  background: radial-gradient(ellipse at 52% 48%, rgba(188, 156, 255, .18), transparent 36%), linear-gradient(140deg, #201c2e, #17161e 58%, #292118);
+}
+.catalog-harry-orbit {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  width: 92px;
+  height: 92px;
+  border: 1px solid rgba(210, 187, 255, .72);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 15px rgba(188, 156, 255, .05), 0 0 0 31px rgba(236, 195, 117, .04);
+}
+.catalog-harry-spark {
+  position: absolute;
+  top: 39%;
+  left: 48%;
+  color: #ecc278;
+  font-size: 22px;
+}
+.catalog-visual-stranger {
+  background: radial-gradient(ellipse at 50% 54%, rgba(220, 35, 71, .2), transparent 40%), linear-gradient(160deg, #1b1119, #100f17 62%, #1a1014);
+}
+.catalog-signal-line {
+  position: absolute;
+  top: 52%;
+  right: 14%;
+  left: 14%;
+  height: 1px;
+  background: rgba(246, 86, 105, .85);
+  box-shadow: 0 0 18px rgba(246, 56, 89, .7);
+}
+.catalog-signal-core {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  width: 58px;
+  height: 58px;
+  border: 1px solid rgba(246, 86, 105, .7);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 14px rgba(246, 86, 105, .06);
+}
+.catalog-visual-ultima-pieza {
+  background:
+    linear-gradient(rgba(145, 213, 196, .05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(145, 213, 196, .05) 1px, transparent 1px),
+    radial-gradient(ellipse at 52% 50%, rgba(232, 149, 74, .17), transparent 42%),
+    #111819;
+  background-size: 20px 20px, 20px 20px, auto, auto;
+}
+.catalog-ultima-pieza-frame {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  width: 74px;
+  height: 74px;
+  border: 1px solid rgba(232, 149, 74, .78);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.catalog-ultima-pieza-signal {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  color: #e9e3d5;
+  font-family: var(--mono);
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+}
+.catalog-note a { color: var(--accent); font-weight: 700; }
+.catalog-card-copy .card-link { margin-top: 2px; }
